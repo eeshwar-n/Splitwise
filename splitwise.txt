@@ -1,0 +1,4 @@
+num_party = int(input("How many people are sharing the cost?"))
+cost = int(input("What is the total price?"))
+costpp = cost / num_party
+print("Each person will have to pay " + str(costpp) + " dollars.")
